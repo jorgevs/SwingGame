@@ -29,7 +29,7 @@ public class MenuState extends State {
         Graphics2D graphics2D = getGraphics2D();
         graphics2D.setColor(color);
         graphics2D.fillRect(x, y, width, height);
-        graphics2D.drawString("This is the menu state", 120, 120);
+        graphics2D.drawString("This is the MenuState", 120, 120);
 
         super.render();
     }

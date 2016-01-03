@@ -1,5 +1,7 @@
 package com.jvs.swinggame;
 
+import com.jvs.swinggame.animators.MarioState;
+
 import javax.swing.*;
 import java.util.ArrayList;
 
@@ -19,7 +21,8 @@ public class StateManager {
 
     private void initAllStates(){
         //TODO Add states
-        states.add(new MenuState());
+        //states.add(new MenuState());
+        states.add(new MarioState());
     }
 
     public void startCurrentState(){
@@ -39,4 +42,5 @@ public class StateManager {
             }
         }
     }
+
 }

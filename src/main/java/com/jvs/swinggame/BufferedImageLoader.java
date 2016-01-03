@@ -17,6 +17,11 @@ public class BufferedImageLoader {
         log.debug("url: " + url);
 
         image = ImageIO.read(url);
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return image;
     }
 }
