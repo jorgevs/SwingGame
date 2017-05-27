@@ -10,3 +10,5 @@ Use of java Swing classes:
 * etc
 
 to create basic games using the StateManager strategy.
+
+This code is based on the JavaHub Tutorial: https://www.youtube.com/channel/UCBgSCTqTUk5PrItkQF4bjSA
